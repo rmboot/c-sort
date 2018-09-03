@@ -21,7 +21,7 @@ void quick_sort(int a[],int low,int high){
 }
 main(){
 	int a[]={2,1,4,3,8,5,7,6};
-	int len=8;
+	int len=sizeof(a)/sizeof(a[0]);
 	quick_sort(a,0,len-1);
 	print(a,len);
 }
