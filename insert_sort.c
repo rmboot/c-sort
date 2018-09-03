@@ -10,7 +10,7 @@ void insert_sort(int a[],int len){
 }
 main(){
 	int a[]={2,1,4,3,8,5,7,6};
-	int len=8;
+	int len=sizeof(a)/sizeof(a[0]);
 	insert_sort(a,len);
 	print(a,len);
 }
