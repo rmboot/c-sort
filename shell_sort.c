@@ -1,6 +1,5 @@
 #include "basic.h"
-void shell_sort(int a[],int len)
-{
+void shell_sort(int a[],int len){
 	int gap,temp,i,j;
 	for(gap=len/2;gap>0;gap/=2){
 		for(i=gap;i<len;i+=1){
