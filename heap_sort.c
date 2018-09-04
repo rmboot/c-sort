@@ -1,6 +1,5 @@
 #include "basic.h"
-void heapify(int a[],int len,int i)
-{
+void heapify(int a[],int len,int i){
 	int largest=i;
 	int left=2*i+1;
 	int right=2*i+2;
@@ -13,8 +12,7 @@ void heapify(int a[],int len,int i)
 		heapify(a,len,largest);
 	}
 }
-void heap_sort(int a[],int len)
-{
+void heap_sort(int a[],int len){
 	int i;
 	for(i=len/2-1;i>=0;i--)
 		heapify(a,len,i);
