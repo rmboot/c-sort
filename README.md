@@ -8,6 +8,6 @@
 | 选择 | [选择排序](./select_sort.c) | O(n^2) | O(n^2) | 不稳定| O(1) | n小时较好 |
 | 选择 | [堆排序](./heap_sort.c) | O(nlogn) | O(nlogn) | 不稳定| O(1) | n大时较好 |
 | 插入 | [插入排序](./insert_sort.c) | O(n^2) | O(n^2) | 稳定| O(1) | 大部分已有序时较好 |
-| 插入 | [希尔排序](./shell_sort.c) | O(nlogn) | O(ns) 1<s<2 | 不稳定| O(1) | s是所选分组 |
+| 插入 | [希尔排序](./shell_sort.c) | O(nlogn) | O(n^s) 1<s<2 | 不稳定| O(1) | s是所选分组 |
 | 基数 | [基数排序](./radix_sort.c) | O(logRB) | O(logRB) | 稳定| O(n) | B是真数(0-9) R是基数(个十百) |
 | 归并 | [归并排序](./merge_sort.c) | O(nlogn) | O(nlogn)) | 稳定| O(n) | n大时较好 |
